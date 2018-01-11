@@ -17,6 +17,8 @@ Some exemples of docker using Dockerfile and Docker compose
   
   <b>"docker-compose up app"</b>
   
+* in the host computer open the browser and access http://localhost:3000/users  
+  
   
 
 
