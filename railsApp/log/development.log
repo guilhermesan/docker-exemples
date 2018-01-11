@@ -1,0 +1,543 @@
+
+
+Started GET "/assets/rails.png" for 172.17.0.1 at 2018-01-10 15:43:32 +0000
+Connecting to database specified by database.yml
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__569662950365487115__call__3988127381098651617__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /usr/local/bundle/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.8ms)
+  Rendered /usr/local/bundle/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.1ms)
+
+
+Started GET "/assets/rails.png" for 172.17.0.1 at 2018-01-10 19:35:15 +0000
+Connecting to database specified by database.yml
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.22.5) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.22.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `_run__631269083637209840__call__3410001527638907224__callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.22.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /usr/local/bundle/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (18.4ms)
+  Rendered /usr/local/bundle/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.2ms)
+
+
+Started GET "/assets/rails.png" for 172.17.0.1 at 2018-01-11 00:08:23 +0000
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (99ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 172.17.0.1 at 2018-01-11 00:09:28 +0000
+Served asset /rails.png - 200 OK (2ms)
+
+
+Started GET "/user" for 172.17.0.1 at 2018-01-11 00:09:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/user"):
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.22.5) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.22.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.7) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.7) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.22.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.7) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.22.5) lib/action_dispatch/middleware/static.rb:83:in `call'
+  railties (3.2.22.5) lib/rails/engine.rb:484:in `call'
+  railties (3.2.22.5) lib/rails/application.rb:231:in `call'
+  rack (1.4.7) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.22.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.7) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (6.8ms)
+
+
+Started GET "/users" for 172.17.0.1 at 2018-01-11 00:09:40 +0000
+Processing by UsersController#index as HTML
+Mysql2::Error: Table 'myRailsApp_development.users' doesn't exist: SHOW FULL FIELDS FROM `users`
+Completed 500 Internal Server Error in 89.9ms
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Table 'myRailsApp_development.users' doesn't exist: SHOW FULL FIELDS FROM `users`):
+  app/controllers/users_controller.rb:5:in `index'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /usr/local/bundle/gems/actionpack-3.2.22.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+Connecting to database specified by database.yml
+  [1m[36m (13.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (34.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (7.6ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20180111000914)
+  [1m[35m (0.4ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `phone` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+Mysql2::Error: All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead: CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `phone` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+Connecting to database specified by database.yml
+  [1m[36m (7.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20180111000914)
+  [1m[35m (10.2ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `phone` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (1.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20180111000914')[0m
+  [1m[35m (0.3ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (10.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20180111000914)
+  [1m[35m (0.3ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/assets/rails.png" for 172.17.0.1 at 2018-01-11 00:19:40 +0000
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (9ms)
+
+
+Started GET "/users" for 172.17.0.1 at 2018-01-11 00:19:43 +0000
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` [0m
+  Rendered users/index.html.erb within layouts/application (23.2ms)
+Compiled scaffolds.css  (24ms)  (pid 18)
+Compiled users.css  (4ms)  (pid 18)
+Compiled application.css  (165ms)  (pid 18)
+Compiled jquery.js  (1ms)  (pid 18)
+Compiled jquery_ujs.js  (0ms)  (pid 18)
+Compiled users.js  (47ms)  (pid 18)
+Compiled application.js  (256ms)  (pid 18)
+Completed 200 OK in 795.8ms (Views: 722.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.17.0.1 at 2018-01-11 00:19:44 +0000
+Served asset /application.css - 200 OK (25ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.17.0.1 at 2018-01-11 00:19:44 +0000
+Served asset /scaffolds.css - 200 OK (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 172.17.0.1 at 2018-01-11 00:19:44 +0000
+Served asset /users.css - 200 OK (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.0.1 at 2018-01-11 00:19:44 +0000
+Served asset /jquery.js - 200 OK (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.0.1 at 2018-01-11 00:19:44 +0000
+Served asset /jquery_ujs.js - 200 OK (12ms)
+
+
+Started GET "/assets/users.js?body=1" for 172.17.0.1 at 2018-01-11 00:19:44 +0000
+Served asset /users.js - 200 OK (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.17.0.1 at 2018-01-11 00:19:44 +0000
+Served asset /application.js - 200 OK (25ms)
+
+
+Started GET "/users/new" for 172.17.0.1 at 2018-01-11 00:19:46 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (14.0ms)
+  Rendered users/new.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 90.9ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 172.17.0.1 at 2018-01-11 00:19:46 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.17.0.1 at 2018-01-11 00:19:46 +0000
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.17.0.1 at 2018-01-11 00:19:46 +0000
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started POST "/users" for 172.17.0.1 at 2018-01-11 00:19:50 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E1a9HNvHgLdkJk5sQtpqutlaL2OcWmZTXjFvPjwkG+0=", "user"=>{"name"=>"asdfasf", "email"=>"asdasf", "phone"=>"asdfasfd"}, "commit"=>"Create User"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (6.9ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `name`, `phone`, `updated_at`) VALUES ('2018-01-11 00:19:50', 'asdasf', 'asdfasf', 'asdfasfd', '2018-01-11 00:19:50')[0m
+  [1m[35m (1.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 34.7ms (ActiveRecord: 8.9ms)
+
+
+Started GET "/users/1" for 172.17.0.1 at 2018-01-11 00:19:50 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (2.8ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 48.7ms (Views: 43.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.17.0.1 at 2018-01-11 00:19:50 +0000
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.17.0.1 at 2018-01-11 00:19:50 +0000
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 172.17.0.1 at 2018-01-11 00:19:50 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 172.17.0.1 at 2018-01-11 00:19:52 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` 
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 33.2ms (Views: 31.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.17.0.1 at 2018-01-11 00:19:52 +0000
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 172.17.0.1 at 2018-01-11 00:19:52 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.17.0.1 at 2018-01-11 00:19:52 +0000
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+Connecting to database specified by database.yml
+  [1m[36m (7.6ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20180111000914)
+  [1m[35m (0.3ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/users" for 172.17.0.1 at 2018-01-11 00:20:36 +0000
+Connecting to database specified by database.yml
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` [0m
+  Rendered users/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 198.5ms (Views: 123.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.17.0.1 at 2018-01-11 00:20:37 +0000
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.17.0.1 at 2018-01-11 00:20:37 +0000
+Served asset /scaffolds.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/users.css?body=1" for 172.17.0.1 at 2018-01-11 00:20:37 +0000
+Served asset /users.css - 304 Not Modified (8ms)
+
+
+Started GET "/users" for 172.17.0.1 at 2018-01-11 00:20:40 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` 
+  Rendered users/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 45.0ms (Views: 42.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.17.0.1 at 2018-01-11 00:20:40 +0000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.17.0.1 at 2018-01-11 00:20:40 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 172.17.0.1 at 2018-01-11 00:20:40 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (10.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (19.9ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (7.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20180111000914)
+  [1m[35m (0.4ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `phone` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+Mysql2::Error: All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead: CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `phone` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+Connecting to database specified by database.yml
+  [1m[36m (4.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20180111000914)
+  [1m[35m (9.7ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `phone` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20180111000914')[0m
+  [1m[35m (0.5ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (4.6ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20180111000914)
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (4.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20180111000914)
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/assets/rails.png" for 172.17.0.1 at 2018-01-11 00:31:57 +0000
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (7ms)
+
+
+Started GET "/users" for 172.17.0.1 at 2018-01-11 00:32:00 +0000
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` [0m
+  Rendered users/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 207.6ms (Views: 129.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.0.1 at 2018-01-11 00:32:00 +0000
+Served asset /jquery.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/users.css?body=1" for 172.17.0.1 at 2018-01-11 00:32:00 +0000
+Served asset /users.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.17.0.1 at 2018-01-11 00:32:00 +0000
+Served asset /application.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.17.0.1 at 2018-01-11 00:32:01 +0000
+Served asset /scaffolds.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.0.1 at 2018-01-11 00:32:01 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/users.js?body=1" for 172.17.0.1 at 2018-01-11 00:32:01 +0000
+Served asset /users.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.17.0.1 at 2018-01-11 00:32:01 +0000
+Served asset /application.js - 304 Not Modified (45ms)
+Connecting to database specified by database.yml
+  [1m[36m (4.9ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (10.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (6.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20180111000914)
+  [1m[35m (4.1ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `phone` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20180111000914')[0m
+  [1m[35m (0.4ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/users" for 172.17.0.1 at 2018-01-11 12:39:43 +0000
+Connecting to database specified by database.yml
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` [0m
+  Rendered users/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 231.3ms (Views: 159.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.0.1 at 2018-01-11 12:39:44 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.0.1 at 2018-01-11 12:39:44 +0000
+Served asset /jquery.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.17.0.1 at 2018-01-11 12:39:44 +0000
+Served asset /scaffolds.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/users.css?body=1" for 172.17.0.1 at 2018-01-11 12:39:44 +0000
+Served asset /users.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.17.0.1 at 2018-01-11 12:39:44 +0000
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/users.js?body=1" for 172.17.0.1 at 2018-01-11 12:39:45 +0000
+Served asset /users.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.17.0.1 at 2018-01-11 12:39:45 +0000
+Served asset /application.js - 304 Not Modified (57ms)
+
+
+Started GET "/users/new" for 172.17.0.1 at 2018-01-11 12:39:53 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (10.4ms)
+  Rendered users/new.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 71.2ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 172.17.0.1 at 2018-01-11 12:39:53 +0000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 172.17.0.1 at 2018-01-11 12:39:54 +0000
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.0.1 at 2018-01-11 12:39:54 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.17.0.1 at 2018-01-11 12:39:54 +0000
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.17.0.1 at 2018-01-11 12:39:54 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.0.1 at 2018-01-11 12:39:54 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.17.0.1 at 2018-01-11 12:39:54 +0000
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/users" for 172.17.0.1 at 2018-01-11 12:39:58 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E1a9HNvHgLdkJk5sQtpqutlaL2OcWmZTXjFvPjwkG+0=", "user"=>{"name"=>"teste", "email"=>"teste", "phone"=>"teste"}, "commit"=>"Create User"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (6.8ms)[0m  [1mINSERT INTO `users` (`created_at`, `email`, `name`, `phone`, `updated_at`) VALUES ('2018-01-11 12:39:58', 'teste', 'teste', 'teste', '2018-01-11 12:39:58')[0m
+  [1m[35m (2.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 45.3ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/users/1" for 172.17.0.1 at 2018-01-11 12:39:58 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41.5ms (Views: 38.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.17.0.1 at 2018-01-11 12:39:58 +0000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.17.0.1 at 2018-01-11 12:39:58 +0000
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.0.1 at 2018-01-11 12:39:58 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.0.1 at 2018-01-11 12:39:58 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 172.17.0.1 at 2018-01-11 12:39:58 +0000
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 172.17.0.1 at 2018-01-11 12:39:58 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.17.0.1 at 2018-01-11 12:39:58 +0000
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/users" for 172.17.0.1 at 2018-01-11 12:40:00 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` 
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 35.7ms (Views: 33.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 172.17.0.1 at 2018-01-11 12:40:00 +0000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 172.17.0.1 at 2018-01-11 12:40:00 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 172.17.0.1 at 2018-01-11 12:40:00 +0000
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 172.17.0.1 at 2018-01-11 12:40:00 +0000
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 172.17.0.1 at 2018-01-11 12:40:00 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 172.17.0.1 at 2018-01-11 12:40:00 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 172.17.0.1 at 2018-01-11 12:40:00 +0000
+Served asset /application.js - 304 Not Modified (3ms)
